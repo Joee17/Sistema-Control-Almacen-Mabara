@@ -1,0 +1,152 @@
+header{
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+}
+
+
+/*estilos para la tabla*/
+table th {
+    background-color: #437cc5 !important;
+    color: white;
+}
+table #fr {
+    background-color: #fff!important;
+    color: black;
+    border: inset 0pt;
+}
+table>tbody>tr>td {
+    vertical-align: middle !important;
+}
+
+/*para alinear los botones y cuadro de busqueda*/
+.btn-group, .btn-group-vertical {
+    position: absolute !important;
+}
+:after, :before {
+    box-sizing: border-box;
+}
+
+a {
+    color: #437cc5;
+    text-decoration: none;
+}
+a:hover {
+    color: #31598d;
+    text-decoration: none;
+}
+i{
+  margin-bottom:4px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+.btn-app {
+    color: white;
+    box-shadow: none;
+    border-radius: 3px;
+    position: relative;
+    padding: 10px 15px;
+    margin: 0;
+    min-width: 60px;
+    max-width: 80px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: #f4f4f4;
+    font-size: 12px;
+    transition: all .2s;
+    background-color: steelblue !important;
+}
+
+.btn-app > .fa, .btn-app > .glyphicon, .btn-app > .ion {
+    font-size: 30px;
+    display: block;
+}
+.btn-app1 {
+    font-size: 60px;
+    display: block;
+}
+.btn-app:hover {
+    border-color: #aaa;
+    transform: scale(1.1);
+}
+
+.pdf {
+  background-color: #FF3E3E !important;
+}
+
+.excel {
+    background-color: #37A35F !important;
+}
+
+.csv {
+    background-color: #3764FF  !important;
+}
+
+.imprimir {
+    background-color: #3764FF !important;
+}
+
+/*
+Esto es opcional pero sirve para que todos los botones de exportacion se distribuyan de manera equitativa usando flexbox
+
+.flexcontent {
+    display: flex;
+    justify-content: space-around;
+}
+*/
+
+.selectTable{
+  height:40px;
+  float:right;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #4682b4;
+    border-color: #4682b4;
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #315f86;
+    border-color: #545b62;
+}
+
+
+
+.titulo-tabla{
+  color:#606263;
+  text-align:center;
+  margin-top:15px;
+  margin-bottom:15px;
+  font-weight:bold;
+}
+
+
+
+
+
+
+.inline{
+  display:inline-block;
+  padding:0;
+}
